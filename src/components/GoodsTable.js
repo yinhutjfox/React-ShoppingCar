@@ -68,7 +68,7 @@ export default class GoodsTable extends Component
 						<input type = "checkbox" data-goodsid = {goods.id} checked = {goods.checked} onChange = {this.goodsCheckFlagChange} />
 					</td>
 					<td className = "col-xs-1">
-						<img src = {goods.src} className = "img-responsive" alt = "你等着吧..." />
+						<img src = {goods.src} className = "img-responsive" alt = "你等着吧，哈哈..." />
 					</td>
 					<td>{goods.name}</td>
 					<td>{goods.price}</td>
